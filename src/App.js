@@ -37,9 +37,6 @@ function CarShow() {
         )}
       </CubeCamera>
 
-      <Rings />
-      <Boxes />
-
       <spotLight
         color={[1, 0.25, 0.7]}
         intensity={1.5}
@@ -59,8 +56,10 @@ function CarShow() {
         shadow-bias={-0.0001}
       />
 
-      <FloatingGrid />
       <Ground />
+      <FloatingGrid />
+      <Rings />
+      <Boxes />
 
       <EffectComposer>
         <DepthOfField
