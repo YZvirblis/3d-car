@@ -10,6 +10,7 @@ import "./style.css";
 import Ground from "./Ground";
 import Car from "./Car";
 import Rings from "./Rings";
+import { Boxes } from "./Box";
 
 function CarShow() {
   return (
@@ -29,6 +30,7 @@ function CarShow() {
       </CubeCamera>
 
       <Rings />
+      <Boxes />
 
       <spotLight
         color={[1, 0.25, 0.7]}
