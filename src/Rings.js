@@ -26,7 +26,7 @@ export default function Rings() {
       colorScale *= 0.5;
 
       // color
-      if (i % 2 == 1) {
+      if (i % 2 === 1) {
         mesh.material.emissive = new Color(6, 0.15, 0.7).multiplyScalar(
           colorScale
         );
